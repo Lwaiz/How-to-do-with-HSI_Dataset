@@ -1,8 +1,3 @@
-模型在pretrain.py中进行预训练
-
-输入数据为11*11的切片，pavia_U数据含有103个波段
-通过data.py生成patch
-
 # `data.py` 数据集和切片生成
 
 
@@ -11,6 +6,7 @@
 ## 数据集说明
 
 - 数据集：PaviaU
+- 数据集介绍：pavia_U数据含有103个波段
 - 数据格式：MATLAB格式 (.mat)
 - 数据集路径：`DataSet/PaviaU`
 - 数据集包括：\
